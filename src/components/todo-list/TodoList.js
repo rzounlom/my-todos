@@ -2,12 +2,12 @@ import "./TodoList.css";
 
 import Todo from "../todo/Todo";
 
-const testTodo = {
-  id: 1,
-  name: "Walk the dog",
-  completed: false,
-  confidence: 5,
-};
+// const testTodo = {
+//   id: 1,
+//   name: "Walk the dog",
+//   completed: false,
+//   confidence: 5,
+// };
 
 const TodoList = ({ todos, toggleTodo, removeTodo }) => {
   // console.log({ todos });

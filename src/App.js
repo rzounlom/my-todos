@@ -3,7 +3,8 @@ import "./App.css";
 import { useEffect, useState } from "react";
 
 import TodoList from "./components/todo-list/TodoList";
-import { initialTodos } from "./data";
+
+// import { initialTodos } from "./data";
 
 const BaseUrl = "https://64407795792fe886a88f6162.mockapi.io/api/todos";
 
